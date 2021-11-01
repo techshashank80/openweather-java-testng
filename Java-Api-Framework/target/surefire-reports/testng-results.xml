@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5969" started-at="2021-11-01T17:15:08Z" finished-at="2021-11-01T17:15:14Z">
+    <groups>
+    </groups>
+    <test name="Weather" duration-ms="5969" started-at="2021-11-01T17:15:08Z" finished-at="2021-11-01T17:15:14Z">
+      <class name="com.org.tests.WeatherTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.org.tests.WeatherTest@865dd6]" name="setUp" is-config="true" duration-ms="328" started-at="2021-11-01T17:15:08Z" finished-at="2021-11-01T17:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchByCityName(java.lang.String)[pri:0, instance:com.org.tests.WeatherTest@865dd6]" name="searchByCityName" duration-ms="2865" started-at="2021-11-01T17:15:09Z" data-provider="searchByCityName" finished-at="2021-11-01T17:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCityName -->
+        <test-method status="PASS" signature="searchByGeoCoordinates(double, double)[pri:0, instance:com.org.tests.WeatherTest@865dd6]" name="searchByGeoCoordinates" duration-ms="1447" started-at="2021-11-01T17:15:12Z" data-provider="searchByGeoCoordinates" finished-at="2021-11-01T17:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[35.02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[139.01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByGeoCoordinates -->
+        <test-method status="PASS" signature="searchByZip(int, java.lang.String)[pri:0, instance:com.org.tests.WeatherTest@865dd6]" name="searchByZip" duration-ms="1245" started-at="2021-11-01T17:15:13Z" data-provider="searchByZip" finished-at="2021-11-01T17:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[94040]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByZip -->
+      </class> <!-- com.org.tests.WeatherTest -->
+    </test> <!-- Weather -->
+  </suite> <!-- Suite -->
+</testng-results>

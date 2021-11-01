@@ -1,0 +1,5 @@
+com/org/framework/BaseConfiguration.class
+com/org/tests/WeatherTest.class
+com/org/dataprovider/DataProviderWeather.class
+com/org/framework/BasePath.class
+com/org/tests/BaseTest.class
