@@ -1,5 +1,5 @@
 
-# REST-API Automation framework-Carta
+# REST-API Automation framework
 
 ### Technologies:
  - Java
