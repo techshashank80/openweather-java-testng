@@ -19,7 +19,7 @@
 
 Use IntelliJ or Eclipse then import this project as maven project.
 
-Go to terminal and run:
+Go to this directory 'Java-Api-Framework' in terminal and run:
 
 ```
 mvn clean test 
